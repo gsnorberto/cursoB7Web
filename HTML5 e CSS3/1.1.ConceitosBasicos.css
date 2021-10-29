@@ -1,0 +1,36 @@
+li{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+/* selecionar ao mesmo tempo */
+#titulo, .texto-azul-claro{
+    color: aqua;
+}
+#titulo{
+    font-size: 50px;
+}
+.texto-azul-claro{
+    font-size: large;
+}
+
+.texto-cinza{
+    color: gray;
+}
+
+/* Procura o elemento "ol", entra nesse elemento e procura o elemento "li" */
+ol li{
+    color: pink;
+}
+/*  */
+
+.colorRGB{
+    /* Evite utilizar os nomes das cores */
+    /* color: red; */
+
+    /* color: rgb(0, 255, 0); */
+
+    /* 6 caracteres = 2 vermelhos, 2 verdes, e 2 azuis */
+    /* 1 até 9 e "a" até "f" */
+    color: #FF0000;
+}
