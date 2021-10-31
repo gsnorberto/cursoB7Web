@@ -34,3 +34,59 @@ ol li{
     /* 1 até 9 e "a" até "f" */
     color: #FF0000;
 }
+
+/*Padding e Margin*/
+.pa-ma{
+    border: 1px solid #FF0000;
+    padding: 10px;
+    margin: 30px;
+}
+
+body{
+    margin: 0px;
+}
+
+.bordaSuperior{
+    margin-top: 10px;
+    background-color: #000000;
+    width: 100%;
+    /* width: auto; Se expande por toda largura da página */
+    /* width: inherit; Herda da Div anterior */
+    height: 100px;
+}
+
+*{
+    /* a largura do conteúdo, não incluirá o marging e o padding. Ou seja, o tamanho do quadrado abaixo será 400+20+10 = 440 */
+    /* box-sizing: content-box; */
+
+    /* a largura do conteúdo incluirá o marging e o padding. Ou seja, o tamanho do quadrado abaixo será 400 no total = 370+20+10 */
+    box-sizing: border-box;
+}
+
+/* O quadrado aqui fica com 430px em vez dos 400px. Para resolver isso, utiliza a propriedade "*" acima */
+.quadrado-verde{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid #000;
+}
+
+.link{
+    color: #FFF;
+    background-color: indigo;
+    margin: 20px 10px;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: absolute;
+}
+.link:hover{
+    color: red;
+}
+/* .link:visited{
+    color: indigo;
+} */
+
