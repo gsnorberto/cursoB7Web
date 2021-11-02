@@ -1,0 +1,73 @@
+/* Medidas que vão mudar de tamanho baseados nos elementos que temos na própria página */
+
+/* 
+------------MEDIDAS RELATIVAS--------------:
+
+- em = é baseado no "font-size" do item pai
+- rem = é baseado no primeiro elemento da estrutura (O pai de todos os pais). Ou seja, a tag html.
+
+- % = tamanho baseado no espaço disponível do elemento
+
+- ex = tamanho baseado na altura do "x" da fonte. (POUCO UTILIZADA)
+
+- ch = Serve apenas para fontes monospace. Se ajusta ao tamanho da fonte
+
+- vh (height)(viewport) = se ajusta de acordo a altura da tela disponível para exibição do conteúdo. Muito utilizado para posicionar estruras mais gerais, como: menus
+- vw (width)(viewport) =  se ajusta de acordo a largura da tela disponível para exibição do conteúdo
+
+- vmin, vmax = quase nunca utilizados.
+
+- "font size = inherit" = "Força" uma herança de características do pai
+*/
+/* --------------------------------- */
+/* Nesse exemplo, o "box" tem a medida de 20px. Logo, 1em dentro do "box-interno" equivale a 20px. 10em = 200px */
+/* .box{
+    font-size: 20px;
+}
+.box-interno{
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+} */
+
+/* --------------------------------- */
+/* Nesse exemplo o "box-interno" terá 400px de largura e altura */
+/* body{
+    font-size: 20px;
+}
+h1{
+    font: 3em;
+}
+.box{
+    font-size: 2em;
+}
+.box-interno{
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+} */
+/* --------------------------------- */
+/* O font-size padrão do html é 16px, na maioria dos casos */
+/* html{
+    font-size: 40px;
+}
+h1{
+    font: 2rem;
+}
+.box{
+    font-size: 1rem;
+}
+.box-interno{
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+} */
+
+/* viewport */
+body{
+    margin: 0;
+}
+.box{
+    background-color: #999;
+    height: 100vh; /*100% da altura da tela disponível*/
+}
