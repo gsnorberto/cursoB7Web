@@ -1,0 +1,19 @@
+table{
+    width: 600px;
+    font-size: 17px;
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: honeydew;
+}
+/* th, td{
+    border-bottom: 1px solid #000;
+} */
+table thead{
+    background-color: wheat;
+}
+
+/* Aplicar efeito apenas nas linhas ímpares ou pares */
+tbody tr:nth-child(even){
+    background-color: #DDD;
+}

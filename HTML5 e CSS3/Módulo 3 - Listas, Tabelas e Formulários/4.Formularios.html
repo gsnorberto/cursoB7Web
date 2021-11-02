@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="4.Formularios.css">
+</head>
+<body>
+    <h1>CADASTRO DE USUÁRIO</h1>
+
+    <!-- OBS: NUNCA ESQUEÇA DA PROPRIEDADE "NAME" DENTRO DAS TAGS DE INPUT -->
+
+    <!-- As informações preenchidas pelo usuário serão direcionadas para a página "login.html". O usuário será direcionado para página "login.html" com as informações que ele preencheu  -->
+    <!-- GET = Informações enviadas na URL. POST = Informações enviadas no body -->
+    
+    <form action="paginas/login.html" method="GET">
+        <!-- NOME -->
+        <!-- Resposta: "nome = nomeDigitadoPeloUsuario" -->
+        <label>
+            Digite o nome: <br>
+            <input type="text" name="nome" placeholder="Digite seu nome aqui..."/>
+        </label> 
+
+        <!-- USUÁRIO -->
+        <!-- Resposta = "usuario = Gabriel / nomeDigitadoPeloUsuario" -->
+        <label>
+            Digite o usuário: <br>
+            <input type="text" name="usuario" value="gsnorberto">
+        </label> 
+
+        <!-- SENHA -->
+        <!-- Resposta = "senha = senhaDigitadaPeloUsuario" -->
+        <label>
+            Digite a senha: <br>
+            <input type="password" name="senha" placeholder="Digite a senha aqui...">
+        </label> 
+
+        <!-- SEXO -->
+        <!-- Resposta = "sexo = Mas / Fem" -->
+        <label>Selecione o sexo: </label> 
+        <!--  -->
+        <label> 
+            <input type="radio" name="sexo" value="Mas">
+            Masculino
+        </label>  
+        <!--  -->
+        <label>
+            <input type="radio" name="sexo" value="Fem"> 
+            Feminino
+        </label> 
+
+        <!-- INTERESSES -->
+        <!-- Resposta = EX: "carros = on & casas = on" -->
+        <label>Selecione seus interesses: </label> 
+        <!--  -->
+        <label>
+            <input type="checkbox" name="carros">
+            Carros
+        </label> 
+        <!--  -->
+        <label>
+            <input type="checkbox" name="bebidas">
+            Bebidas
+        </label> 
+        <!--  -->
+        <label>
+            <input type="checkbox" name="casas">
+            Casas
+        </label> 
+        <!-- -->
+        <label>
+            <input type="checkbox" name="viagens">
+            Viagens
+        </label>
+        <!-- Outra forma de fazer sem usar id e for -->
+        <!-- <input id="casa" type="checkbox" name="casas">
+        <label for="casa">Casas</label>  -->
+
+        <!-- ORDENAÇÃO -->
+        <!-- Resposta = "ordenacao = last / bestsellers" -->
+        <!-- OBS: Se não colocar o "value" a resposta será = "ordenacao = Mais Vendidos / Recentes" -->
+        <label>Ordenar por: </label>
+        <select name="ordenacao">
+            <option value="bestsellers">Mais Vendidos</option>
+            <option value="last" selected>Recentes</option> <!--"Recentes" fica selecionado por padrão-->
+        </select>
+
+        <!-- TEXTO DIGITADO PELO USUÁRIO -->
+        <label>
+            Digite seu texto aqui: <br>
+            <textarea name="conteudo" cols="30" rows="10"></textarea>
+        </label>
+
+        <!-- TERMOS DE USO -->
+        <label>
+            <input type="checkbox">
+            Eu declaro que li e aceito os <a class="termos-link" href="paginas/termosDeUso.html" target="_blank">Termos de Uso</a> 
+        </label>
+
+        <!-- OBS: O Botão "submit" e o botão "button" fazem a mesma coisa dentro do "form". Mas o "button" pode ser utilizado em outros contextos -->
+        <!-- BOTÃO SUBMIT -->
+        <!-- <input type="submit" value="Casastrar"> -->
+
+        <!-- BOTÃO PADRÃO -->
+        <button>Cadastrar</button>
+    </form>
+
+    <!-- ------------------------------------------------ -->
+    <h1>INPUTS INCOMPATÍVEIS COM NAVEGADORES ANTIGOS</h1>
+    <!-- Inputs que só funcionam em navegadores mais novos -->
+    <form action="">
+        <label for="">Selecione a cor: </label>
+        <input type="color" name="" id="">
+
+        <!-- Só vai aceitar entrdas em formato de email -->
+        <br>
+        <label for="">Digite o email: </label>
+        <input type="email" />
+
+        <br>
+        <label for="">Data: </label>
+        <input type="date">
+
+        <br>
+        <label for="">Data: </label>
+        <input type="datetime-local">
+
+        <br>
+        <label for="">Selecione a quantidade: </label>
+        <input type="number">
+
+        <br>
+        <label for="">Selecione a quantidade: </label>
+        <input type="range">
+
+        <!-- Variação do type text mais arredondado -->
+        <br>
+        <label for="">Escreva aqui: </label>
+        <input type="search">
+
+        <!-- Não tem formatação de telefone -->
+        <br>
+        <label for="">Digite telefone: </label>
+        <input type="tel">
+
+        <br>
+        <label for="">Digite a hora: </label>
+        <input type="time">
+
+        <!-- Só vai aceitar entrdas em formato de url -->
+        <br>
+        <label for="">Digite a url: </label>
+        <input type="url">
+    </form>
+
+</body>
+</html>

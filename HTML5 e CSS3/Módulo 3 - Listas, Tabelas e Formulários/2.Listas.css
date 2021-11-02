@@ -1,0 +1,12 @@
+*{
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+}
+
+li{
+    font-size: 2rem;
+}
+
+ul li{
+    list-style-type: square;
+}
