@@ -1,0 +1,34 @@
+:root{
+    --bg-color: #000;
+    --bg-second: #444;
+    --font-color: #FFF;
+    --font-size: 25px;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+
+h1{
+    /* Quando o "--font-color" não tiver cor definida ele coloca o azul */
+    color: var(--font-color, #0000FF);
+}
+
+.container{
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+
+@media (max-width: 450px){
+
+    /* Dessa maneira ele vai alterar o tamanho da fonte de todo o documento */
+    :root{
+        --font-size: 15px;
+    }
+
+    /* O exemplo abaixo não é o ideal, pois só altera o tamanho da fonte do body. */
+    /* body{
+        font-size: var(--font-size-small);
+    } */
+}
