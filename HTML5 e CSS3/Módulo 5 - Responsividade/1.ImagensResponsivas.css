@@ -1,0 +1,23 @@
+img {
+    width: 400px;
+    height: 800px;
+
+    /* PROPRIEDADES OBJECT-FIT */
+
+    /* Fill = Opção habilitada por padrão: A imagem é redmensionada conforme a largura e altura definidas sem se preocupar com a proporção (pode ficar com aspecto de imagem esticada) */
+    /* object-fit: fill; */
+
+    /* Contain = Coloca uma espécie de borda na imagem para manter suas proporções, independente da largura e altura definidas */
+    /* object-fit: contain; */
+    
+
+    /* Cover: Mantem a proporção cortando a imagem com base nas dimensões definidas */
+    /* object-fit: cover; */
+
+    /* None = faz basicamente a mesma coisa que o cover, mas sem nenhum tipo de redmensionamento prévio */
+    /* object-fit: none; */
+    
+}
+h1{
+    color: blue;
+}

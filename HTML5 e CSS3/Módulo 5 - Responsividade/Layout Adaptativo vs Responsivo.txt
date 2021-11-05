@@ -1,0 +1,13 @@
+Adaptativo = Tem tamanhos específicos para cada tipo de tela. Exemplo: 4 tamanhos diferentes de tela pré-estabelecidos para se adaptar. 
+
+Responsivo = Vai diminuindo de acordo ao tamanho da tela
+
+Adaptativo-Responsivo = união dos dois anteriores. Melhor solução para construção de sites
+
+Geralmente as resoluções usadas são:
+-320
+-480
+-760
+-960
+-1200
+-1600
