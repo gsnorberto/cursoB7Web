@@ -1,0 +1,9 @@
+O QUE É WEBKIT?
+
+Cada navegador utilizar uma ENGINE (máquina de renderização) de CSS e HTML. Dentre essas máquinas a mais famosa é a webkit, presente na maioria dos navegadores. Por isso há pequenas diferenças entre os navegadores em questões de espaçamentos e tamanho das coisas ao renderizar uma página.
+- IE = Trident
+- Edge = EdgeHTML
+- Firefox = Gecko 
+- Safari = Webkit
+- Opera = Webkit
+- Chrome = Webkit

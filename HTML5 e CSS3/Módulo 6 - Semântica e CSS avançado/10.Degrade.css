@@ -1,0 +1,18 @@
+body{
+
+}
+.exemplo{
+    width: 500px;
+    height: 200px;
+    background: blue;
+    background: linear-gradient(45deg, white, blue);
+
+    /* Compatibilidade com o Mozila */
+    /* background: -moz-linear-gradient(white, blue); */
+
+    /* Compatibilidade com o Opera */
+    /* background: -o-linear-gradient(white, blue); */
+
+    /* Compatibilidade com o Safari (versões abaixo da 6) */
+    /* background: -webkit-linear-gradient(white, blue); */
+}
