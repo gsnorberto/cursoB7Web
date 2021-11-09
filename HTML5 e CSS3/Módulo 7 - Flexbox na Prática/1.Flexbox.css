@@ -1,0 +1,62 @@
+/* Como era feito antes de existir o flexbox */
+/* Vários cálculos tinham que ser feitos, e vários problemas surgiam na criação de boxes. */
+/* div{
+    width: 50%;
+    height: 200px;
+    background-color: #FF0000;
+    margin: 10px;
+    float: left;
+} */
+
+.container{
+    display: flex; /*Organização padrão horizontal*/
+    /*flex-wrap: wrap; /*Quebra de linha quando a largura do box ultrapassa o limite*/
+    /* flex-direction: column-reverse; */
+
+    /*align-content: flex-end;*/
+
+    /* Espaçamento */
+    /* space-betwen, space-around, flex-end, flex-start */
+    justify-content: center; /* alinhar na linha (ou coluna, se a flex direction for column) */
+    align-items: center; /* alinhar na coluna (ou linha, se a flex direction for column)*/
+
+
+    height: 500px;
+    /*flex-direction: row;*/ /*row-reverse, column-reverse*/
+    background-color: aqua;
+    margin: 10px;
+}
+
+/* Como temos dois "flex" no grupo 1, eles dividirão o espaço meio a meio */
+.container div{
+    /*flex: 1;*/ /*Grupo 1*/
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div4{
+    /* Sobrescrever o align-itens */
+    align-self: flex-start; 
+    order: -1; /*Ordem de prioridade. números maiores têm mais prioridade*/
+}
+
+
+/* .div2{
+    flex: 1;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div3{
+    flex: 2;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+} */
