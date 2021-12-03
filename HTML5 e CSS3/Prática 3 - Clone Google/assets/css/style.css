@@ -1,0 +1,137 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.content-header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 14px 18px 0 0;
+}
+
+.content-header a{
+    margin-left: 18px;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 1.0 rem;
+}
+
+.content-header a img{
+    border-radius: 50%;
+}
+
+.ri-grid-fill{
+    font-size: 20px;
+    color: 	#696969;
+}
+
+.img_google{
+    text-align: center;
+}
+.img_google img{
+    width: 80%;
+}
+
+.content_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_bar{
+    position: relative;
+}
+
+.search_bar i{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    color: #808080;
+}
+
+.search_bar input{
+    width: 100%;
+    height: 32px;
+    margin-bottom: 38px;
+    border: 1px solid #D3D3D3;
+    border-radius: 50px;
+    outline: none;
+    padding: 0 20px 0 20px;
+    font-size: 1rem;
+    color: #1C1C1C;
+}
+.search_bar input:hover{
+    border: 1px solid #D3D3D3;
+}
+
+.search_buttons{
+    text-align: center;
+    margin: 30px;
+}
+.search_buttons button{
+    border: 0;
+    color: #363636;
+    font-size: 0.9rem;
+    margin-right: 18px;
+    padding: 10px;
+}
+.search_buttons button:hover{
+    border: solid 1px #D3D3D3;
+    border-radius: 3px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #696969;
+}
+
+footer ul{
+    display: flex;
+    padding: 0 10px 0 10px;
+}
+
+.list_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #D3D3D3;
+}
+
+.name_country{
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.text_protection{
+    font-size: 0.8rem;
+    color: #1C1C1C;
+}
+.text_protection a{
+    color: #0000CD;
+    text-decoration: none;
+}
+.text_protection img{
+    max-width: 30px;
+    vertical-align: middle;
+}
+
+footer ul li{
+    display: flex;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    
+}
+footer ul li a{
+    text-decoration: none;
+    color: #696969;
+    font-size: 0.9rem;
+}
+
