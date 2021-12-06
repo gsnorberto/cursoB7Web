@@ -1,0 +1,16 @@
+[required]{
+    background-color: blue;
+}
+
+[name="usuario2"]{
+    background-color: brown;
+}
+
+input[type=password]{
+    background-color: green;
+}
+
+.teste1[atributo1]{
+    background-color: red;
+    width: 100px;
+}
