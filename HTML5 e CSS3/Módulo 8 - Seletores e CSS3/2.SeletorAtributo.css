@@ -1,0 +1,37 @@
+/* Selecionar primeira letra de um parágrafo*/
+p::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+div:first-child{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+}
+
+div:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Aplica em todos elementos, menos na div */
+:not(div){
+    font-style: italic;
+}
+
+p:nth-child(2){
+    background-color: black;
+    color: white;
+}

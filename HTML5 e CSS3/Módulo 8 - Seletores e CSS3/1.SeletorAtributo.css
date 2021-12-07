@@ -14,3 +14,30 @@ input[type=password]{
     background-color: red;
     width: 100px;
 }
+
+/* Procura dentro do link a palavra "economia" */
+a[href*="futebol"]{
+    display: block;
+    text-align: center;
+    background-color: green;
+}
+
+/* Seleciona os itens que começam com https dentro do "href" */
+a[href^="https"]{
+    background-color: #0000FF;
+}
+
+/*Seleciona os itens que terminam com "html" no href */
+a[href$="https"]{
+    background-color: #0000FF;
+}
+
+div{
+  margin: 20px;
+  height: 30px;  
+}
+
+/* Aplicar um background nas divs que estão vazias  */
+div:empty{
+    background-color: brown;
+}
