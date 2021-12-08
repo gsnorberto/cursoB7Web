@@ -1,0 +1,18 @@
+.balao{
+    background-color: blue;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.balao::after{
+    content: "";
+    width: 1px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border: 20px solid;
+    border-color: #0000FF transparent transparent transparent;
+}

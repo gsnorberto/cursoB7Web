@@ -1,0 +1,13 @@
+ thead {
+     font-weight: bold;
+     background-color: black;
+     color: white;
+ }
+
+ /* Odd para posições ímpares  */
+ tbody tr:nth-child(even){
+     background-color: lightgray;
+ }
+ tbody tr:nth-child(odd){
+     background-color: lightcoral;
+ }
