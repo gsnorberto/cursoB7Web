@@ -1,0 +1,9 @@
+.text{
+    width: 250px;
+    height: 50px;
+    font-size: 40px;
+}
+
+input::placeholder{
+    color: green;
+}

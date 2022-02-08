@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    background-color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 900px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
+
+
+
+/* section{
+} */
+
+.login_box, .register_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    width: 350px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.register_box{
+    background-image: linear-gradient(to right, #7513ca, #bf239e);
+}
+
+.login_logo, .register_logo{
+    margin-top: 20px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.login_title{
+    color: #1C1C1C;
+}
+.login_subtitle{
+    color: #808080;
+}
+
+.login_box{
+    margin-right: 20px;
+}
+.centralize{
+    display: flex;
+    justify-content: center;
+}
+
+.login_title, .register_title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.register_title{
+    color: #FFFFFF;
+}
+
+.register_form{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.register_form form,
+.login_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register_form label,
+.register_form input,
+.login_form label,
+.login_form input {
+    width: 300px;
+}
+
+.login_form label{
+    font-weight: bold;
+    color: #808080;
+    font-size: 15px;
+}
+
+.login_form input{
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+}
+
+.register_form label{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.register_form input{
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+}
+
+.buttons{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.register_form button{
+    font-weight: bold;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.login_form button{
+    font-weight: bold;
+    background-color: #4e63fe;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: solid 1px white;
+}
+
+
+input{
+    margin-bottom: 20px;
+}
+
+/* Icons */
+.ri-login-box-line{
+    font-size: 50px;
+    color: #5a5ff1;
+}
+
+.ri-user-line{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+
+.social_networks{
+    color: white;
+}
+
+.social_icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon_face, .icon_twitter{
+    font-size: 20px;
+    margin-right: 8px;
+}

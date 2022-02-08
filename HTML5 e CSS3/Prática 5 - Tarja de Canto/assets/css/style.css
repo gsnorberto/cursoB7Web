@@ -1,0 +1,30 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.tarja{
+    width: 350px;
+    height: 40px;
+    background-color: #4169E1;
+    display: table-cell;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    transform: rotate(-45deg);
+    position: fixed;
+    
+    margin-left: -100px;
+}
+
+.txt{
+    font-size:13px;
+    position: relative;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /* margin-top: 10px; */
+    top: 30%;
+    right: 10%;
+}

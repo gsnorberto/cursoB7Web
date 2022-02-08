@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+span::before{
+    content:">> ";
+    background-color: yellow;
+}
+
+span::after{
+    content:" <<";
+    background-color: green;
+}
+
+/* div:after{
+
+} */

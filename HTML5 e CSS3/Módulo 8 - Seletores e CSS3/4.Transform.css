@@ -1,0 +1,13 @@
+div{
+    background-color: #FF0000;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    /* transform: scale(0.5); */
+    /* transform: scaleX(0.5); */
+    /* transform: rotate(90deg); */
+    transform: skew(20deg, 20deg);
+}

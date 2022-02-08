@@ -1,0 +1,54 @@
+/* Mudar a página só para o momento de impressão */
+/* O "screen" faz exatamento o contrário do "print". Ele só mostra coisas na tela, mas não sai na impressão */
+@media only print{
+    body{
+        background-color: red;
+    }
+    h1{
+        color: black;
+    }
+    h2{
+        display: none;
+    }
+}
+
+body{
+    background-color: #000;
+}
+
+h1{
+    color: white;
+}
+
+@media (min-width: 1000px){
+    body{
+        background-color: green;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 999px){
+    body{
+        background-color: violet;
+    }
+    h1{
+        color: turquoise;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 699px){
+    body{
+        background-color: wheat;
+    }
+    h1{
+        color: #000;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: #FF0000;
+    }
+    h1{
+        color: yellow;
+    }
+}
