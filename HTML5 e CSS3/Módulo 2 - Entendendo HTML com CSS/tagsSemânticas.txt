@@ -1,3 +1,0 @@
-Existem tags que têm um significado semântico, por exemplo:
-
-Para colocar um texto em negrito temos duas possivilidades: <strong>  ,  <b>  . Porém o <strong> tem um significado semântico que consistem em dar ênfase a alguma parte do texto.
